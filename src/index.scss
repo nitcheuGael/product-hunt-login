@@ -1,0 +1,21 @@
+/* @import "./../src/styles/utils/_queries";
+@import "./../src/styles/utils/_variables"; */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+$textColor:red;
+
+.p{
+  font-size: 1.5rem;
+  color: $textColor;
+}
